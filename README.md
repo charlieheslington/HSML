@@ -1,8 +1,8 @@
 # HSML
 An attempt at making a chatbot in Python. Ths is for an EPQ Project. The 'bot' utilises a markup file to get responces. This project is nowhere near completed and is work in progress.
 ## Dependancies
-Python 2.7
-[Element Tree](https://pypi.python.org/pypi/elementtree/) 
+* Python 2.7
+* [Element Tree](https://pypi.python.org/pypi/elementtree/) 
 ## Functionality
 * Finds the most approriate responce based on a tag strength system
 * Reads from a custom markup file
