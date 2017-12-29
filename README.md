@@ -5,7 +5,7 @@ An attempt at making a chatbot in Python. Ths is for an EPQ Project. The 'bot' u
 ## Functionality
 * Finds the most approriate responce based on a tag strength system
 * Reads from a custom markup file
-# Future Functionality
+## Future Functionality
 * More intelligent ways to decide on a responce
 * Sentiment analysis
 * A HSML File creator to feed mass data into a HSML File
