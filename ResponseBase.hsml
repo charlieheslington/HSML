@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<intents>
+    <intent>
+        <name>GREETING</name>
+        <description> An introduction to a conversation </description>
+        <calls>
+            <trigger>HELLO</trigger>
+            <trigger>HI</trigger>
+            <trigger>GOOD DAY</trigger>
+            <trigger>GOOD MORNING</trigger>
+            <trigger>GOOD EVENING</trigger>
+            <trigger>SUP</trigger>
+        </calls>
+        <tags>
+            <tag strength ="10">HELLO</tag>
+            <tag strength ="10">HI</tag>
+            <tag strength ="2">MORNING</tag>
+            <tag strength ="2">EVENING</tag>
+        </tags>
+        <response>
+            <positive>
+                <result>Hello There</result>
+                <result>Good Day!</result>
+                <result>How can I help you!</result>
+            </positive>
+            <negative>
+                <result>Well Hello There</result>
+                <result>What do you want?</result>
+                <result>Nice to see you too...</result>
+            </negative>
+        </response>
+    </intent>
+    <intent>
+        <name>GOODBYE</name>
+        <description> Often the end of a conversation </description>        
+        <calls>
+            <trigger>GOODBYE</trigger>
+            <trigger>BYE</trigger>
+            <trigger>SEE YOU LATER</trigger>
+            <trigger>GOOD NIGHT</trigger>
+            <trigger>LATERS</trigger>
+            <trigger>UNTIL NEXT TIME</trigger>
+            <trigger>END CONVERSATION</trigger>
+        </calls>
+        <tags>
+            <tag strength ="10">BYE</tag>
+            <tag strength ="10">GOODBYE</tag>
+            <tag strength ="3">LATER</tag>
+        </tags>
+        <response>
+            <positive>
+                <result>See you later</result>
+                <result>See you soon</result>
+                <result>Goodbye</result>
+            </positive>
+            <negative>
+                <result>Bye then</result>
+                <result>Whatever. See you.</result>
+            </negative>
+        </response>
+    </intent>
+    <intent>
+        <name>HELP</name>
+        <description> Provides help for the user </description>        
+        <calls>
+            <trigger>HELP</trigger>
+            <trigger>HELP ME</trigger>
+            <trigger>IM STUCK</trigger>
+        </calls>
+        <tags>
+            <tag strength ="10">HELP</tag>
+            <tag strength ="3">UNDERSTAND</tag>
+            <tag strength ="2">HOW</tag>
+        </tags>
+        <response>
+            <positive>
+                <result>This is a bot. To talk, type what you would like to say!</result>
+                <result>For help with the HSML Parser, look at the documentation!</result>
+            </positive>
+            <negative>
+                <result>Bye then</result>
+                <result>Whatever. See you.</result>
+            </negative>
+        </response>
+    </intent>
+    <intent>
+        <name>JOKE</name>
+        <description>One liner jokes</description>
+        <calls>
+            <trigger>TELL ME A JOKE</trigger>
+            <trigger>CRACK A JOKE</trigger>
+            <trigger>GIVE ME A JOKE</trigger>
+        </calls>
+        <tags>
+            <tag strength ="8">JOKE</tag>
+            <tag strength ="1">TELL</tag>
+            <tag strength ="2">CRACK</tag>
+            <tag strength ="4">PUN</tag>
+            <tag strength ="1">GAG</tag>
+        </tags>
+        <response>
+            <positive>
+                <result>What was Forrest Gump's email password... 1forrest1 </result>
+                <result>I love the F5 key. It's just so refreshing.</result>
+                <result>Did you know that Java developers wear glasses because they don't C Sharp!</result>
+                <result>Which computer is a singer?.. A-Dell!</result>
+                <result>What do trees love about computers?.. Logging in!</result>
+            </positive>
+            <negative>
+                <result>Google your own jokes!</result>
+            </negative>
+        </response>
+    </intent>
+</intents>
