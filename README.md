@@ -13,5 +13,5 @@ An attempt at making a chatbot in Python. Ths is for an EPQ Project. The 'bot' u
 * A HSML File creator to feed mass data into a HSML File
 
 ## Getting Started
-Download the reposity and run the AlphaBot.py file. This will allow you to interact with the bot. 
+Download and run the AlphaBot.py file. This will allow you to interact with the bot. 
 In the file included, there are only about 3 or 4 set responces to play with - feel free to add your own markup and increase the bot's functionality. 
